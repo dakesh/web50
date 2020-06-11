@@ -1,0 +1,30 @@
+@@ -0,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Glorious Fruits Drinks</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <h1> Welcome To Glorious Fruits Drinks </h1>
+    <ol>
+      <h2><li>Ginger Nuts</li></h2>
+      <img src="gingernuts.jpeg" alt="gingernuts" width="300" height="200">
+      <ul>
+        <li>1 liter</li>
+        <li> 5 liters</li>
+        <li>10 liters</li>
+        </ul>
+          <button><a href="gingernuts.html"> Ginger Nuts</a></button>
+      <h2><li> Orange Juice</li></h2>
+      <img src="orangejuice.jpeg" alt="orangejuice" width="300" height="200">
+      <ul>
+      <li>1 liter</li>
+      <li> 5 liters</li>
+      <li>10 liters</li>
+    </ul>
+    <button><a href="Orangejuice.html"> Orange Juice</a></button>
+    </ol>
+  </body>
+</html>

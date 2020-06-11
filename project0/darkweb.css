@@ -1,0 +1,60 @@
+h1, h2{
+  color: blue;
+  text-align: center;
+}
+ol, li{
+  color: red;
+}
+p::selection{
+  color: blue;
+  background-color: yellow;
+}
+input[type=text]{
+  background-color: green;
+}
+input[type=number]{
+  background-color: Orange;
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  background-color: orange;
+}
+button: hover{
+  background-color: orange;
+}
+
+  @@media print {
+    .scree-only{
+      display:none;
+    }
+  }
+ (min-widgt:500px) {
+    {
+    background-color:red;
+
+     }
+  }
+  (max-width:499px;) {
+      body{
+        background-color: blue;
+            }
+
+    }
+    .grid {
+                background-color: green;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: auto auto auto;
+            }
+
+            .grid-item {
+                background-color: white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
